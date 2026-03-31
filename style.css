@@ -1,0 +1,50 @@
+.navi{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #333;
+    text-align: left;
+    font-style: italic;
+
+    
+    padding: 10px;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+
+}
+.navi {
+    font-style: normal;
+    font-display: optional;
+    font-size: 20px;
+    
+    text-shadow: rgb(95, 14, 14);
+    
+
+}
+.navi:hover{
+    
+    text-decoration: double;
+    text-decoration-color: rgb(95, 14, 14);
+    text-decoration-thickness: 2px;
+
+
+
+}
+.content{
+    font-style: italic;
+    font-size: 20px;
+    margin:20px;
+    
+}
+image.ima{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+#key{
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+}
