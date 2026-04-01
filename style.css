@@ -1,31 +1,25 @@
 .navi{
     display: flex;
     justify-content: flex-start;
-    background-color: #333;
+    
     text-align: left;
     font-style: italic;
 
     
-    padding: 10px;
-    gap: 30px;
+    padding: 2px;
+    gap: 10px;
     list-style: none;
     margin: 0;
-
-}
-.navi {
-    font-style: normal;
-    font-display: optional;
-    font-size: 20px;
-    
-    text-shadow: rgb(95, 14, 14);
     
 
 }
-.navi:hover{
     
-    text-decoration: double;
-    text-decoration-color: rgb(95, 14, 14);
-    text-decoration-thickness: 2px;
+
+
+.navi.li:hover{
+    
+    color: rgb(26, 172, 13);
+    
 
 
 
@@ -38,9 +32,12 @@
 }
 image.ima{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 10px;
+    
     width: 50%;
+   
+
+
 
 }
 #key{
@@ -48,3 +45,31 @@ image.ima{
     font-weight: bolder;
     font-style: italic;
 }
+
+.bg{
+    background-color: rgba(162, 189, 205, 0.618);
+    font-family: Arial;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2px;
+}
+
+.d{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+    
+}
+.img1{
+    display: block;
+    border-radius: 10px;
+    align-items: end;
+    
+    width: 50%;
+}
+
