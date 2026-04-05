@@ -81,9 +81,7 @@ image.ima{
     
 
 }
-button:hover {
-    background: red;
-}
+
 a:hover{
     background-color: blue;
 }
