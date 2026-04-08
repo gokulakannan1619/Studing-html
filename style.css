@@ -1,15 +1,17 @@
-.navi{
+.navi>.container1{
     display: flex;
     justify-content: flex-start;
     
     text-align: left;
     font-style: italic;
+    background: linear-gradient(to left, red, blue);
 
     
     padding: 2px;
     gap: 10px;
     list-style: none;
     margin: 0;
+    text-shadow: black 5px 5px ;
     
 
 }
@@ -72,15 +74,10 @@ image.ima{
     
     width: 50%;
 }
-.container1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 2px;
-    width: 100px;
+
     
 
-}
+
 
 a:hover{
     background-color: blue;
@@ -88,3 +85,19 @@ a:hover{
 
 
 
+.important {
+    color: orange;
+}
+.warning {
+    color: blue;
+}
+.warning.important {
+    color: red;
+}
+#aj{
+    border-style:outset;
+    border-color:red;
+
+
+
+}
