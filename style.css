@@ -1,8 +1,9 @@
-.navi>.container1{
+.navi{
     display: flex;
     justify-content: flex-start;
     
     text-align: left;
+    align-items: flex-end;
     font-style: italic;
     background: linear-gradient(to left, red, blue);
 
@@ -13,6 +14,7 @@
     margin: 0;
     text-shadow: black 5px 5px ;
     
+
 
 }
     
@@ -90,14 +92,31 @@ a:hover{
 }
 .warning {
     color: blue;
+    opacity: 0.5;
 }
 .warning.important {
     color: red;
 }
 #aj{
     border-style:outset;
-    border-color:red;
+    border-color:top red;
+    
 
 
 
+}
+mark{
+     text-transform: capitalize;
+     letter-spacing: -1px;
+     text-decoration: overline red;
+
+
+}
+
+input[type=text] {
+font-size: 1rem;
+padding: 0.5em;
+}
+.bg::first-letter{
+ color:black
 }
