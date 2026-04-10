@@ -48,6 +48,7 @@ image.ima{
     font-size: larger;
     font-weight: bolder;
     font-style: italic;
+    filter: drop-shadow(10px 10px 1px green);
 }
 
 .bg{
@@ -81,8 +82,14 @@ image.ima{
 
 
 
+a{
+width: 150px;
+height:150px;
+background-color: red;
+transition: background-color 5s;
+}
 a:hover{
-    background-color: blue;
+background-color: green;
 }
 
 
@@ -149,4 +156,27 @@ grid-row: 2;
 table{
     border-collapse: separate;
     border-spacing: 10px;
+}
+
+.RainbowBackground {
+animation: rainbow-background 5s infinite;
+}
+.rotate {
+width: 100px;
+height: 100px;
+background: teal;
+transform:  rotate(15deg) translateX(200px);
+}
+
+body{
+    cursor: value;
+}
+
+.box_shadow {
+width: 100px;
+height: 100px;
+margin: 100px;
+box-shadow:-52px -52px 0px 0px #f65314,
+52px -52px 0px 0px #7cbb00,-52px 52px 0px 0px #00a1f1,
+52px 52px 0px 0px #ffbb00;
 }
