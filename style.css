@@ -120,3 +120,29 @@ padding: 0.5em;
 .bg::first-letter{
  color:black
 }
+
+#ajay{
+     display : inline-block;
+    background : lightblue;
+    padding:10px;
+    border-width:2px;
+    border-color:black;
+    border-style:solid;
+}
+
+.container .item1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+.container .item2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+.container .item3 {
+  grid-column: 1;
+  grid-row: 2;
+}
+.container .item4 {
+  grid-column: 2;
+grid-row: 2;
+}
