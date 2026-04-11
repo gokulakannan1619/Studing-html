@@ -37,7 +37,8 @@
 image.ima{
     display: block;
     border-radius: 10px;
-    
+    mask: url(images.jpeg) luminance;
+    mask-image: linear-gradient(to right, white, transparent);
     width: 50%;
    
 
@@ -180,3 +181,30 @@ box-shadow:-52px -52px 0px 0px #f65314,
 52px -52px 0px 0px #7cbb00,-52px 52px 0px 0px #00a1f1,
 52px 52px 0px 0px #ffbb00;
 }
+
+.pyramid{
+    width:100px;
+    height:200px;
+    position:relative;
+    margin:50px;
+}
+.pyramid::after .pyramid::before{
+    content:"";
+    display:inline-block;
+    height:0;
+    width:0;
+    border: 50px solid;
+    position:absolute;
+    
+}
+.pyramid::after{
+    border-color: transparent transparent red transparent;
+    transform: scaley(2)  skewX(-40deg) rotate(30deg);
+}
+
+.pyramid::after{
+    border-color: transparent transparent red transparent;
+    transform: scaley(2)  skewX(40deg) rotate(-30deg);
+}
+
+
