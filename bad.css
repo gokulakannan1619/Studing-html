@@ -1,7 +1,7 @@
 body[background] {
     
     background-size: cover;
-    opacity: 0.8;
+    opacity: 1.0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:rgba(5, 82, 5, 0.8);
     text-shadow: 2px 2px 4px rgba(5, 121, 7, 0.5);
@@ -27,3 +27,19 @@ body[background] {
     color: white;
     font-size: 40px;
 }
+ center[a]:hover{
+    color:red;
+ }
+ center[a]:visited{
+    color:green
+ }
+
+ .box{
+    border: 2px solid rgb(13, 174, 77);
+    border-collapse: outset;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    color:rgb(7, 139, 42);
+    font-family: "times new roman", serif;
+ }
