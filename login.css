@@ -1,0 +1,67 @@
+body {
+            display: flex;
+            
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            
+        }
+form {
+            width: 400px;
+            background-color: linear-gradient(45deg, #100663, #720469);
+            padding: 20px;
+            border-radius: 10px;
+            
+            border-color: red;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        fieldset {
+           
+            border:outset 3px rgb(105, 1, 1);
+            border-radius:  5px;
+            border-color: outset;
+
+            padding: 10px;
+            margin: 0;
+        }
+        legend {
+            font-weight: bold;
+            
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        textarea,
+        input[type="date"] {
+            width: calc(100% - 20px);
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 2px solid #610404;
+            border-radius: 4px;
+        }
+        .gender-group {
+            margin-bottom: 10px;
+        }
+        .gender-group label {
+            display: inline-block;
+            margin-left: 10px;
+        }
+        input[type="radio"] {
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+                
+            color: linear-gradient(to right, #760b0b, #a50c0c);
+            border:outset 3px rgb(105, 1, 1);
+            border-radius: 5px;
+            cursor: pointer;
+        }

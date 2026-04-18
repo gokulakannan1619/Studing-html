@@ -37,6 +37,7 @@ body[background] {
  .box{
     border: 2px solid rgb(13, 174, 77);
     border-collapse: outset;
+    border-radius: 5px;
     width: 80%;
     margin: 20px auto;
     text-align: center;
