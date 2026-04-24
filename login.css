@@ -77,7 +77,8 @@ form {
         }
 
         input[type="radio"]:hover {
-            background-color: rgb(152, 10, 10);
+            background-color: rgb(60, 5, 5);
+
         }
 
         input[type="name"],
