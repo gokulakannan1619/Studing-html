@@ -50,7 +50,7 @@ body[background] {
     padding: 10px 20px;
     
     border-radius: 20px;
-    background: linear-gradient(45deg, #4CAF50, #8BC34A);
+    background: linear-gradient(45deg, #4CAF50, #315507);
     border: rgb(40, 98, 137) solid 2px;
  }
     button:hover{
