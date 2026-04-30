@@ -54,7 +54,7 @@ body[background] {
     border: rgb(40, 98, 137) solid 2px;
  }
     button:hover{
-        background: linear-gradient(45deg, #657005, #4CAF50);
+        background: linear-gradient(45deg, #414705, #446946);
         
         color: white;
         cursor: pointer;
